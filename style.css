@@ -1,0 +1,201 @@
+body {
+  font-family: 'Oswald';
+  margin: 0;
+  padding: 0;
+  background-color: #15161b;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.logo span {
+  color: #1a7993;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.area-title h3 {
+  color: white;
+  font-weight: normal;
+}
+
+.area-title h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 50px;
+  margin-top: -18px;
+}
+
+.area-title a {
+  display: inline-block;
+  background-color: #1a7993;
+  padding: 15px 60px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image-1 img {
+  width: 445px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.section-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-cards h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #2c2f37;
+  width: 200px;
+  height: 180px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card:hover {
+  background-color: #1a7993;
+  transition: 0.3s all;
+}
+
+.card img {
+  width: 65px;
+}
+
+.section-3 {
+  background-color: #1a7993;
+  height: 342px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.area-title-2 h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+}
+
+.area-title-2 h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: -26px;
+}
+
+.area-title-2 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  padding: 15px 60px;
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.image-2 img {
+  width: 280px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+.area-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+
+.area-form h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+}
+
+.formulario input {
+  margin-top: 20px;
+  padding-left: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-family: 'Oswald';
+}
+
+input::placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+input[type='submit'] {
+  background-color: #1a7993;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  height: 55px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.social h3 {
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.social img {
+  width: 30px;
+  margin-left: 15px;
+}
